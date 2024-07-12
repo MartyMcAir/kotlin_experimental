@@ -2,6 +2,9 @@ package org.kot
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+// Э name - ЭТО свойство а name внутри класса это уже будет поле
+val name: String = "John Doe"
 fun main() {
 //    some()
 //    helloWorld()

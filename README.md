@@ -65,7 +65,7 @@
   - Java: String name = "John"; или var name = "John";
   - Kotlin: val name: String = "John" или var name = "John"
     - val - ключевое слово для объявления (immutable) НЕ изменяемых переменных/свойств
-    - var - ключ слово для объъявления изменяемых переменных/свойств
+    - var - ключ слово для объявления изменяемых переменных/свойств
 
 Классы и наследование
   - Java: public class Person { ... }, class Student extends Person { ... }
@@ -74,6 +74,14 @@
 Поля класса
   - Java: String name = "Djon"; без значения: String name;
   - Kotlin: val name: String = "John Doe" без значения: val name: String
+
+Свойства (Properties)
+- Java: Отсутствует
+- Kotlin: поле указанное в не скоупа класса, является "свойством"
+  - val name: String = "John Doe"
+    - val - immutalbe НЕ изменяемое свойство
+  - var age: Int = 30
+    - var - mutable изменяемое свойство
 
 Методы
 - Java: public int add(int a, int b) { return a + b; }
