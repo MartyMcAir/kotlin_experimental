@@ -62,8 +62,8 @@
 В конце "набора инструкций кода" в kotlin точку c запятой НЕ ставят
 НЕ всё в котлин короче чем в Java
 - объявление переменной
-  - java: String name = "John"; или var name = "John";
-  - kotlin: val name: String = "John" или var name = "John"
+  - Java: String name = "John"; или var name = "John";
+  - Kotlin: val name: String = "John" или var name = "John"
     - val - ключевое слово для объявления (immutable) НЕ изменяемых переменных/свойств
     - var - ключ слово для объъявления изменяемых переменных/свойств
 
