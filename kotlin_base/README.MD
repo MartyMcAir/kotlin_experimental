@@ -10,4 +10,6 @@ Ktor
 Javalin
 - https://javalin.io/tutorials/simple-kotlin-example
     - API с CRUD операциями работает kotlin_base/src/main/kotlin/api/JavalinCrud.kt
+Доп инфо по Javalin:
+- https://www.baeldung.com/javalin-rest-microservices
 - etc..
